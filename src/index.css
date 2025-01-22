@@ -61,9 +61,9 @@
 }
 
 .chart-container {
-  @apply p-6 rounded-lg bg-card shadow-sm border border-border hover:shadow-md transition-shadow duration-200;
+  @apply p-4 md:p-6 rounded-lg bg-card shadow-sm border border-border hover:shadow-md transition-shadow duration-200 overflow-hidden;
 }
 
 .metric-card {
-  @apply p-6 rounded-lg bg-card shadow-sm border border-border hover:shadow-md transition-shadow duration-200;
+  @apply p-4 md:p-6 rounded-lg bg-card shadow-sm border border-border hover:shadow-md transition-shadow duration-200;
 }
