@@ -17,21 +17,25 @@ const Index = () => {
             title="Total Revenue"
             value="$45,231.89"
             description="+20.1% from last month"
+            route="/metrics/revenue"
           />
           <MetricCard
             title="Active Users"
             value="2,350"
             description="+180 new users"
+            route="/metrics/users"
           />
           <MetricCard
             title="Conversion Rate"
             value="3.2%"
             description="+0.2% improvement"
+            route="/metrics/conversion"
           />
           <MetricCard
             title="Avg. Order Value"
             value="$59.52"
             description="+8% from last week"
+            route="/metrics/order-value"
           />
         </div>
 
